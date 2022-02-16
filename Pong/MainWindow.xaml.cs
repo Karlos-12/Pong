@@ -64,7 +64,7 @@ namespace Pong
             InitializeComponent();
             way_x = r.Next(1);
             way_y = r.Next(1);
-            yct= r.Next(5);
+            yct= r.Next(1, 5);
 
         }
 
