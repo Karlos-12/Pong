@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="620" Width="1030" Background="#FF1A1A1A" Foreground="White" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp" ResizeMode="NoResize">
     <Grid Height="584" VerticalAlignment="Top" HorizontalAlignment="Left" Width="1020" Margin="0,0,0,0">
+        <Grid HorizontalAlignment="Left" Height="542" Margin="0,0,0,0" VerticalAlignment="Top" Width="1030">
+            <Rectangle Fill="#FFDADADA" Margin="504,0,504,42"/>
+        </Grid>
+
         <Grid Margin="0,0,0,84" HorizontalAlignment="Left" Width="1000">
             <Canvas x:Name="Field_main" Margin="0,0,0,16"/>
         </Grid>
@@ -17,9 +21,6 @@
             <Label x:Name="scorep" Content="Score: 000" Margin="0,6,0,5" Background="{x:Null}" Foreground="White" FontSize="54" FontFamily="Consolas" HorizontalAlignment="Right" Width="310"/>
             <Label Content="Speed:" Foreground="White" Background="#3F666666" FontSize="54" FontFamily="Consolas" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="181"/>
             <TextBox x:Name="sss" TextWrapping="Wrap" Text="005" Background="#3F666666" BorderBrush="{x:Null}" Foreground="White" FontSize="54" VerticalContentAlignment="Center" FontFamily="Consolas" Margin="181,0,0,0" TextChanged="TextBox_TextChanged" HorizontalAlignment="Left" Width="99"/>
-        </Grid>
-        <Grid HorizontalAlignment="Left" Height="542" Margin="0,0,0,0" VerticalAlignment="Top" Width="1030">
-            <Rectangle Fill="White" Margin="504,0,504,42"/>
         </Grid>
 
     </Grid>
